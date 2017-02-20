@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+body {
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  background: #ffd89b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ffd89b , #19547b); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ffd89b , #19547b);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome     26+, Opera 12+, Safari 7+ */
+}
+input {
+  width: 300px;
+  height: 20px;
+  outline: none;
+  font-weight: 700;
+}
+#btn {
+  width: 150px;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+button {
+  background: #6C9DAD;
+  font-weight: 700;
+  border-radius: 20px;
+  padding: 5px;
+}
+button:hover{
+  background-color: #82B4C4;
+  cursor: pointer;
+}
+section {
+  margin: 20px auto;
+  max-width: 500px;
+}
+input:focus {
+    width: 300px;
+}
+h3 {
+  letter-spacing: 3px;
+}
+.article:hover {
+  background-color: #82B4C4;
+  cursor: pointer;
+}
+.article-list {
+  margin: 0 auto;
+  width: 100%;
+}
+.article {
+  background: #6C9DAD;
+  margin: 10px auto;
+  border: 1px solid grey;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px lightgrey;
+  padding: 5px;
+  text-align: left;
+  width: 100%;
+}
+
+.article a:link {
+  color: white;
+  text-decoration: none;
+}
+.article a:visited {
+  color: white;
+}
+footer {
+  position: static;
+  margin: 70px auto;
+  bottom: 0px;
+}
